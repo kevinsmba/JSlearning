@@ -1,5 +1,5 @@
 
-const country = 'Colombia';
+/*const country = 'Colombia';
 const continent = 'America';
 let population = 45;
 
@@ -17,4 +17,14 @@ let averageComparison = population > averagePopulation;
 
 let description = `${country} + ' is in '+${continent}+', and its '+${population}+' million people speak '+${language}`;
 
-console.log(description);
+console.log(description);*/
+const massMark = 95;
+const heighMark = 1.88;
+const massJohn = 85;
+const heighJohn = 1.76;
+
+const BMIMark = massMark / heighMark ** 2;
+const BMIJohn = massJohn / (heighJohn * heighJohn);
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markHigherBMI);
