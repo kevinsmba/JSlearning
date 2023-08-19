@@ -1,4 +1,5 @@
 
+/*
 const country = 'Colombia';
 const continent = 'America';
 let population = 45;
@@ -25,3 +26,10 @@ if(population>33){
     let popLeft = 33-population;
     console.log(`${country} population is ${popLeft} million below the average`);
 }
+
+console.log('9' - '5');//4
+console.log('19' - '13' + '17');//'617'
+console.log('19' - '13' + 17);//23
+console.log('123' < 57);//false
+console.log(5 + 6 + '4' + 9 - 4 - 2);//'1143'
+*/

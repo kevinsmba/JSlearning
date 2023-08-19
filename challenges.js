@@ -1,3 +1,4 @@
+/*
 const massMark = 78;
 const heighMark = 1.69;
 const massJohn = 92;
@@ -14,3 +15,4 @@ if(markHigherBMI){
 } else {
     console.log(`John's BMI ${BMIJohn} is higher than Mark's${BMIMark}!`)
 }
+*/
