@@ -1,5 +1,5 @@
 
-/*const country = 'Colombia';
+const country = 'Colombia';
 const continent = 'America';
 let population = 45;
 
@@ -15,16 +15,13 @@ let averageComparison = population > averagePopulation;
 
 //console.log(isIsland+' '+newPopulation+' '+averageComparison+' '+language);
 
-let description = `${country} + ' is in '+${continent}+', and its '+${population}+' million people speak '+${language}`;
+let description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 
-console.log(description);*/
-const massMark = 95;
-const heighMark = 1.88;
-const massJohn = 85;
-const heighJohn = 1.76;
+// console.log(description);
 
-const BMIMark = massMark / heighMark ** 2;
-const BMIJohn = massJohn / (heighJohn * heighJohn);
-const markHigherBMI = BMIMark > BMIJohn;
-
-console.log(BMIMark, BMIJohn, markHigherBMI);
+if(population>33){
+    console.log(`${country} population is above the average`);
+} else {
+    let popLeft = 33-population;
+    console.log(`${country} population is ${popLeft} million below the average`);
+}
