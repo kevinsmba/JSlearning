@@ -135,7 +135,7 @@ if(height){
 } else {
     console.log('Height is UNDEFINED');
 }
-*/
+
 
 const age = '18';
 if(age === 18) console.log('You just became an adult(Strict)');
@@ -155,7 +155,7 @@ if (favourite === 26){
 } else {
     console.log('the number is neither 26, 9 or 7')
 }
-/*
+
 switch (favourite){
     case 26:
         console.log('Cool, 26 is an amazing number!');
@@ -169,5 +169,24 @@ switch (favourite){
     default:
         console.log('the number is neither 26, 9 or 7');
 }
-*/
+
 if(favourite !== 26) console.log('Why not 26?');
+*/
+
+const hasDriverLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriverLicense && hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision);
+console.log(!hasDriverLicense);
+
+const shouldDrive = hasDriverLicense && hasGoodVision;
+
+if(shouldDrive){
+    console.log('Yuli is able to drive!');
+} else {
+    console.log('Someone else should drive...');
+}
+
+const isTired = true;
+console.log(hasDriverLicense || hasGoodVision || isTired);
